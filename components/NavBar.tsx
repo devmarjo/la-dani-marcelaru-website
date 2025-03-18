@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Logo512 from "@/assets/images/logo512.png"
 import Link from "next/link";
+import { DrawerBar } from "./Drawer";
 
 export default function NavBar() {
 
@@ -27,6 +28,9 @@ export default function NavBar() {
             <Link className="navBarLink" href="#Butcher&Grocery">Butchery & Grocery</Link>
             <Link className="navBarLink" href="#VisitUs">Visit Us</Link>
             <Link className="navBarLink" href="#Contact">Contact</Link>
+          </div>
+          <div className="md:hidden text-right col-span-2">
+            <DrawerBar/>
           </div>
         </div>
       </div>

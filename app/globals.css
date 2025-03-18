@@ -193,3 +193,7 @@
     text-shadow: .03em .03em 0 #2943d1, -.03em -.03em 0 #f00;
   }
 }
+
+html{
+  scroll-behavior: smooth;
+}

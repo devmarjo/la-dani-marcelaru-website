@@ -65,18 +65,19 @@ export default function Home() {
             in the local Romanian community for its authentic products and friendly service, earning a 5.0/5 customer rating online.
             In late 2023, La Dani Macelaru expanded by opening a second branch in Borehamwood, Hertfordshire.
             This expansion, along with consistently high reviews and a top food hygiene rating,
-            marks a significant milestone in the supermarket&apos;s growth.</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 pt-10">
-              <div className="m-auto w-[300px]">
-                <RoundedFounderImage />
-              </div>
-              <p>
-                <b>Danut Hrisca</b> Romanian-born entrepreneur, Hrisca started the business to bring a taste of Romanian tradition to London&apos;s
-                Romanian and Eastern European community. He is the driving force behind the supermarket&apos;s focus on quality meats and authentic products,
-                and is even referenced in the store&apos;s name (“La Dani Macelaru” refers to “Dani the Butcher,” a nod to Hrisca&apos;s role).
-                Hrisca is the premises license holder for the Borehamwood shop and personally oversees operations 
-              </p>
+            marks a significant milestone in the supermarket&apos;s growth.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 pt-10">
+            <div className="m-auto w-[300px]">
+              <RoundedFounderImage />
             </div>
+            <p>
+              <b>Danut Hrisca</b> Romanian-born entrepreneur, Hrisca started the business to bring a taste of Romanian tradition to London&apos;s
+              Romanian and Eastern European community. He is the driving force behind the supermarket&apos;s focus on quality meats and authentic products,
+              and is even referenced in the store&apos;s name (“La Dani Macelaru” refers to “Dani the Butcher,” a nod to Hrisca&apos;s role).
+              Hrisca is the premises license holder for the Borehamwood shop and personally oversees operations 
+            </p>
+          </div>
 
         </div>
       </div>
@@ -135,7 +136,7 @@ export default function Home() {
       </div>
     </div>
     <div className="m-auto w-[1080px] max-w-[90vw] pt-20">
-      <div className="text-right font-alfa text-5xl border-b-4 border-b-red-700" id="AboutUs">
+      <div className="text-right font-alfa text-5xl border-b-4 border-b-red-700" id="Contact">
         Contact Us
       </div>
       <div className="text-xl py-10">
@@ -172,6 +173,10 @@ export default function Home() {
       <div className="flex flex-row justify-between">
         <div className="font-alfa text-2xl">La Dani Macelaru™</div>
         <div>{new Date().getFullYear()}</div>
+        <div className="font-alfa">
+          Made By <Link target="_blank" href={'https://2wards.co'} className="text-green-300">2WARDS</Link>
+        </div>
+
       </div>
     </div>
    </>
