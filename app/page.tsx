@@ -170,13 +170,12 @@ export default function Home() {
       </div>
     </div>
     <div className="w-full bg-red-700 text-white p-5 font-alfa">
-      <div className="flex flex-row justify-between">
-        <div className="font-alfa text-2xl">La Dani Macelaru™</div>
-        <div>{new Date().getFullYear()}</div>
-        <div className="font-alfa">
+      <div className="grid grid-cols-4 justify-between items-center gap-4">
+        <div className="font-alfa text-left">
           Made By <Link target="_blank" href={'https://2wards.co'} className="text-green-300">2WARDS</Link>
         </div>
-
+        <div className="col-span-2 text-center font-alfa text-2xl">La Dani Macelaru™</div>
+        <div className="text-right">{new Date().getFullYear()}</div>
       </div>
     </div>
    </>

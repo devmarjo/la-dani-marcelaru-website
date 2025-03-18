@@ -22,7 +22,7 @@ export default function NavBar() {
           <Link href="#Home">
             <Image src={Logo512} alt="" className=" max-w-[100%] lg:max-w-[50%] m-auto"/> 
           </Link>
-          <div className="hidden md:flex my-auto flex-row col-span-2  justify-between gap-4 font-bold">
+          <div className="hidden md:flex my-auto flex-row col-span-2  justify-between gap-4 font-alfa">
             {/* <Link className="navBarLink" href="#Home">Home</Link> */}
             <Link className="navBarLink" href="#AboutUs">About Us</Link>
             <Link className="navBarLink" href="#Butcher&Grocery">Butchery & Grocery</Link>
